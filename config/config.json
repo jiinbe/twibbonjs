@@ -1,14 +1,14 @@
 {
 	"profilePictureName": "image.png", 
-	"overlaySource": "assets/img/rahmen/tuerkis.png", 
+	"overlaySource": "assets/picture.png", 
 	"backgroundColor": "#ffffff", 
 	"rootElementId": "generator", 
 	"logoSources": [
-		"assets/img/logos/gemeinschaft-online.png",
-		"assets/img/logos/gegen-das-virus.png",
-		"assets/img/logos/krisen-kultur.png",
-		"assets/img/logos/corona-jobs.png",
-		"assets/img/logos/ich-lerne-online.png"
+		"",
+		"",
+		"",
+		"",
+		""
 	],
 	"messages": {
 		"status": {
