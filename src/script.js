@@ -53,6 +53,8 @@ function generateElements() {
 			
 		  let uploadedImage = document.createElement('img');
 		  uploadedImage.src = URL.createObjectURL(this.files[0]);
+		  uploadedImage.setAttribute("width", "1024");
+		  uploadedImage.setAttribute("height", "1024");
 			
 		  uploadedImage.addEventListener('load', function() {
 				statusElement.textContent = config.messages.status.processing;
