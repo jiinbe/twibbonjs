@@ -32,6 +32,25 @@ a:link, a:visited {
 color: #38488f;
 text-decoration: none;
 }
+input[type="file"]:focus {
+outline: 0;
+}
+input[type="file"] {
+color: transparent;
+width: 64px;
+height: 64px;
+cursor: pointer;
+}
+input[type="file"]::-webkit-file-upload-button {
+visibility: hidden;
+}
+input[type="file"]::before {
+content: '';
+display: inline-block;
+background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698931-icon-98-folder-upload-64.png);
+width: 64px;
+height: 64px;
+}
 input:hover {
 max-width: 100%;
 cursor: pointer;
