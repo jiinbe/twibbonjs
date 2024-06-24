@@ -32,7 +32,7 @@ let fileUploadElement = document.createElement('label');
 fileUploadElement.type = 'file';
 fileUploadElement.accept = "image/*";
 fileUploadElement.classList.add("image-upload");
-fileUploadElement.classList.add("label");
+fileUploadElement.htmlFor("file");
 mainElement.appendChild(fileUploadElement);
 	
 let overlayImageElement = new Image();
