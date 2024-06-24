@@ -117,6 +117,7 @@ mainElement.appendChild(downloadButtonElement);
 mainElement.removeChild(fileUploadElement);
 
 let renewFormElement = document.createElement('button');
+renewFormElement.classList.add("btn");
 renewFormElement.innerText = config.messages.buttons.newImage;
 renewFormElement.addEventListener('click', function(){
 generateElements();
