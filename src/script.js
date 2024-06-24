@@ -59,6 +59,7 @@ uploadedImage.style.objectFit = "cover";
 			
 uploadedImage.addEventListener('load', function() {
 statusElement.textContent = config.messages.status.processing;
+statusElement.textContent = config.messages.status.generate;
 
 // create generator
 setupOptions = {
