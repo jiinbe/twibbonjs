@@ -50,6 +50,7 @@ logoImageElements.push(element);
 fileUploadElement.addEventListener('change', function() {
 if(this.files && this.files[0]) {
 statusElement.textContent = config.messages.uploading;
+statusElement.textContent = config.messages.status.generate;
 			
 let uploadedImage = document.createElement('img');
 uploadedImage.src = URL.createObjectURL(this.files[0]);
@@ -59,7 +60,6 @@ uploadedImage.style.objectFit = "cover";
 			
 uploadedImage.addEventListener('load', function() {
 statusElement.textContent = config.messages.status.processing;
-// statusElement.textContent = config.messages.status.generate;
 
 // create generator
 setupOptions = {
@@ -104,7 +104,6 @@ downloadImageElement.src = generator.render();
 mainElement.appendChild(downloadImageElement);
 
 statusElement.textContent = config.messages.status.done;
-statusElement.textContent = config.messages.status.generate;
 
 // create downloadlink
 let downloadButtonElement = document.createElement('a');
