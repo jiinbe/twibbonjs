@@ -53,7 +53,7 @@ statusElement.textContent = config.messages.uploading;
 			
 let uploadedImage = document.createElement('img');
 uploadedImage.src = URL.createObjectURL(this.files[0]);
-uploadedImage.style.maxWidth = '500';
+uploadedImage.style.maxWidth = '500px';
 // uploadedImage.setAttribute("width", "1024");
 // uploadedImage.setAttribute("height", "1024");
 			
