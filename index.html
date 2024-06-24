@@ -32,28 +32,15 @@ a:link, a:visited {
 color: #38488f;
 text-decoration: none;
 }
-input {
-display: inline-block;
-width: 100%;
-padding: 120px 0 0 0;
-height: 100%;
-overflow: hidden;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-background: url('https://pfpgen.netlify.app/img/file.png') center center no-repeat #e4e4e4;
-border-radius: 20px;
-background-size: 60px 60px;
-transition-duration: 0.4s;
+.image-upload > input {
+display: none;
 }
-input:hover {
-opacity: 0.6;
-cursor: not-allowed;
+.image-upload img {
+width: 100%;
+cursor: pointer;
 animation: shake 0.35s;
 }
-.file{
-display:none;  
-}
+
 @keyframes shake {
 0% {
 transform: rotate(0deg);
