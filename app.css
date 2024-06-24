@@ -28,8 +28,8 @@ outline: 0;
 }
 input[type="file"] {
 color: transparent;
-width: 500px;
-height: 500px;
+width: 100%;
+height: auto;
 cursor: pointer;
 }
 input[type="file"]::-webkit-file-upload-button {
@@ -42,8 +42,8 @@ background: url(https://intifada.pages.dev/upload.jpeg);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-width: 500px; 
-height: 500px;
+width: 100%; 
+height: auto;
 }
 input:hover {
 max-width: 100%;
