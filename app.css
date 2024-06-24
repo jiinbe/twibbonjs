@@ -38,7 +38,7 @@ visibility: hidden;
 input[type="file"]::before {
 content: '';
 display: inline-block;
-background: url(https://via.placeholder.com/300x300/efefef?text=Avatar);
+background: url(https://intifada.pages.dev/upload.jpeg);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
