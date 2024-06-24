@@ -28,11 +28,10 @@ statusElement.textContent = config.messages.status.startup;
 mainElement.appendChild(statusElement);
 
 let fileUploadElement = document.createElement('input');
-let fileUploadElement = document.createElement('label');
 fileUploadElement.type = 'file';
 fileUploadElement.accept = "image/*";
 fileUploadElement.classList.add("image-upload");
-fileUploadElement.htmlFor("file");
+fileUploadElement.label.htmlFor("file");
 mainElement.appendChild(fileUploadElement);
 	
 let overlayImageElement = new Image();
