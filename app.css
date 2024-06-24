@@ -51,15 +51,15 @@ cursor: pointer;
 animation: shake 0.35s;
 }
 .btn {
-    display : inline-block;
-    right : 220px;    
-    width : 80px;
-    height : 30px;
-    background : #CCC;
-    color : #FFF;
-    text-decoration : none;
-    line-height : 30px;
-    text-align : center;
+display : inline-block;
+right : 220px;    
+width : 80px;
+height : 30px;
+background : #CCC;
+color : #FFF;
+text-decoration : none;
+line-height : 30px;
+text-align : center;
 }
 @keyframes shake {
 0% {
