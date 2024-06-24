@@ -29,7 +29,7 @@ outline: 0;
 input[type="file"] {
 color: transparent;
 width: 100%;
-height: auto;
+height: 100%;
 cursor: pointer;
 }
 input[type="file"]::-webkit-file-upload-button {
@@ -43,21 +43,14 @@ background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 width: 100%; 
-height: auto;
+height: 100%;
 }
 input:hover {
 max-width: 100%;
 cursor: pointer;
 animation: shake 0.35s;
 }
-.btn {
-border: 2px solid gray;
-color: gray;
-background-color: white;
-padding: 8px 20px;
-border-radius: 8px;
-font-weight: bold;
-}
+
 @keyframes shake {
 0% {
 transform: rotate(0deg);
