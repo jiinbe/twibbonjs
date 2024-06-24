@@ -30,8 +30,7 @@ mainElement.appendChild(statusElement);
 let fileUploadElement = document.createElement('input');
 fileUploadElement.type = 'file';
 fileUploadElement.accept = "image/*";
-fileUploadElement.classList.add("image-upload");
-fileUploadElement.label.htmlFor("file");
+// fileUploadElement.classList.add("image-upload");
 mainElement.appendChild(fileUploadElement);
 	
 let overlayImageElement = new Image();
