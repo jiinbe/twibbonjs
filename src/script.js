@@ -59,7 +59,7 @@ uploadedImage.style.objectFit = "cover";
 			
 uploadedImage.addEventListener('load', function() {
 statusElement.textContent = config.messages.status.processing;
-statusElement.textContent = config.messages.status.generate;
+// statusElement.textContent = config.messages.status.generate;
 
 // create generator
 setupOptions = {
@@ -104,6 +104,7 @@ downloadImageElement.src = generator.render();
 mainElement.appendChild(downloadImageElement);
 
 statusElement.textContent = config.messages.status.done;
+statusElement.textContent = config.messages.status.generate;
 
 // create downloadlink
 let downloadButtonElement = document.createElement('a');
