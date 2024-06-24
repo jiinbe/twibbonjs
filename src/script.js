@@ -52,9 +52,11 @@ if(this.files && this.files[0]) {
 statusElement.textContent = config.messages.uploading;
 			
 let uploadedImage = document.createElement('img');
+let heightRatio = 1.5;
+uploadedImage.height = canvas.width * heightRatio;
 uploadedImage.src = URL.createObjectURL(this.files[0]);
-uploadedImage.setAttribute("width", "1024");
-uploadedImage.setAttribute("height", "1024");
+// uploadedImage.setAttribute("width", "1024");
+// uploadedImage.setAttribute("height", "1024");
 			
 uploadedImage.addEventListener('load', function() {
 statusElement.textContent = config.messages.status.processing;
