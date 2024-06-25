@@ -102,6 +102,7 @@ nextX += (logo.width * renderOptions.scale) + 10
 				
 // set image url to blob
 let downloadImageElement = document.createElement('img');
+downloadImageElement.setAttribute("alt", "Twibbon");
 downloadImageElement.src = generator.render();
 mainElement.appendChild(downloadImageElement);
 
