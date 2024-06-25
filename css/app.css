@@ -20,7 +20,7 @@ p {
 line-height: 1.6;
 }
 a:link, a:visited {
-color: #38488f;
+color: #333;
 text-decoration: none;
 }
 input[type="file"]:focus {
