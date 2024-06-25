@@ -43,8 +43,8 @@ background: url(https://intifada.pages.dev/upload.jpeg);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-width: 150px; 
-height: 150px;
+width: 100%; 
+height: 100%;
 }
 input:hover {
 max-width: 100%;
