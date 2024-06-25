@@ -240,20 +240,20 @@
 /* Primary button
    ========================================================================== */
 
-.button.primary {
+.button-primary {
     font-weight: bold;
 }
 
 /* Danger button
    ========================================================================== */
 
-.button.danger {
+.button-danger {
     color: #900;
 }
 
-.button.danger:hover,
-.button.danger:focus,
-.button.danger:active {
+.button-danger:hover,
+.button-danger:focus,
+.button-danger:active {
     border-color: #b53f3a;
     border-bottom-color: #a0302a;
     color: #fff;
@@ -265,8 +265,8 @@
     background-image: linear-gradient(#dc5f59, #b33630);
 }
 
-.button.danger:active,
-.button.danger.active {
+.button-danger:active,
+.button-danger.active {
     border-color: #a0302a;
     border-bottom-color: #bf4843;
     background-color: #b33630;
@@ -294,7 +294,7 @@
 /* Big button
    ========================================================================== */
 
-.button.big {
+.button-big {
     font-size: 14px;
 }
 
