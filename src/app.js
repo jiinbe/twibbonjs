@@ -14,7 +14,6 @@ scale: 1
 constructor(options) {
 // create canvas
 this.renderCanvas = document.createElement('canvas');
-this.renderCanvas.opacity(90);
 this.renderCanvas.width = options.width ? options.width : Generator.defaults.width;
 this.renderCanvas.height = options.height ? options.height : Generator.defaults.height;
 		
