@@ -1,4 +1,4 @@
-button {
+button, .button {
 	font-family: inherit;
 	font-size: inherit;
 	padding: 0.4em;
@@ -7,20 +7,20 @@ button {
 	border: 1px solid #ccc;
 	border-radius: 2px;
 }
-button {
+button, .button {
 	color: #333;
 	background-color: #f4f4f4;
 	outline: none;
 }
 
-button:disabled {
+button:disabled .button:disabled {
 	color: #999;
 }
 
-button:not(:disabled):active {
+button:not(:disabled):active, .button:not(:disabled):active {
 	background-color: #ddd;
 }
 
-button:focus {
+button:focus, .button:focus {
 	border-color: #666;
 }
