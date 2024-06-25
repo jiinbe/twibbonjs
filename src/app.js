@@ -3,7 +3,7 @@ class Generator {
 static defaults = {
 width: 1024,
 height: 1024,
-backgroundColor: '#91DDCF',
+backgroundColor: 'rgba(255, 255, 255, .4)',
 offset: {
 top: 0,
 left: 0
