@@ -1,7 +1,7 @@
 {
 "profilePictureName": "image.png", 
 "overlaySource": "assets/picture.png", 
-"backgroundColor": "#91DDCF", 
+"backgroundColor": "rgba(255, 255, 255, .4)", 
 "rootElementId": "app", 
 "logoSources": [
 "",
