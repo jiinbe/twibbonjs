@@ -2,7 +2,6 @@ button, .button {
 	font-family: inherit;
 	font-size: inherit;
 	padding: 0.4em;
-	margin-right: 0.5em;
 	margin: 0 0 0.5em 0;
 	box-sizing: border-box;
 	border: 1px solid #ccc;
@@ -12,6 +11,7 @@ button, .button {
 	color: #333;
 	background-color: #f1f1f1;
 	outline: none;
+	margin-right: 2em;
 }
 
 button:disabled .button:disabled {
