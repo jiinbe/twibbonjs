@@ -82,14 +82,17 @@ border: 0;
 padding-right:80px; 
 }
 
-.section { 
-margin: 40px 0 20px;
+.footer {
+margin: 20px 0 50px; 
+font-size: 11px; 
+color: #666; 
+text-align: center; 
 }
 
-.example { padding: 20px; border: 1px solid #ccc; margin: 10px -20px 20px; }
-
-.footer { margin: 20px 0 50px; font-size: 11px; color: #666; text-align: center; }
-.footer a { color: #666; text-decoration: none; }
+.footer a { 
+color: #666; 
+text-decoration: none; 
+}
 
 @media (max-width: 700px) {
 .container {
