@@ -33,10 +33,6 @@ p {
 line-height: 1.6; 
 }
 
-h1 {
-font: 10px;
-}
-
 /* ------------------------------------------------------------------------------------------------------------- TEMPLATE */
 
 .container { 
@@ -50,32 +46,6 @@ background: #fdfdff;
 -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1); 
 -moz-box-shadow: 0 0 15px rgba(0,0,0,0.1); 
 box-shadow: 0 0 15px rgba(0,0,0,0.1); 
-}
-
-.container pre,
-.container .prettyprint {
-padding: 0; 
-border: 0; 
-margin: 0 0 20px; 
-font-size: 13px; 
-background: #fff; 
-}
-
-.ribbon {
-position: absolute; 
-top: -1px; 
-right: -1px; 
-opacity: 0.9;
-}
-
-.ribbon:hover, .ribbon:focus, 
-.ribbon:active { 
-opacity: 1; 
-}
-
-.ribbon img { 
-display: block;
-border: 0; 
 }
 
 .header { 
