@@ -1,28 +1,50 @@
 <!doctype html>
 <html>
 <head>
-<title>BERGABUNGLAH DENGAN REVOLUSI ONLINE!</title>
+    <title>404 Not Found</title>
 
-<meta charset="utf-8" />
-<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:description" content="Bingkai profil Anda dengan warna perlawanan. Biarkan foto profil Anda berbicara banyak tentang perdamaian dan keadilan.">
-<meta property="og:title" content="BERGABUNGLAH DENGAN REVOLUSI ONLINE!" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="og.png" />
-  
-<link rel='icon' type='image/png' href='favicon.png'>
-<link rel='stylesheet' href='css/app.css'>
-<link rel='stylesheet' href='css/buttons.css'>
-
-<script src="src/app.js"></script>
-<script src="src/script.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        font-size: 14px;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
 </head>
 
 <body>
-<main>
-<h1>BERGABUNGLAH DENGAN REVOLUSI ONLINE!</h1>
-<p id="app"></p>
-</main>
+<div>
+    <h1>Halaman ini tidak dapat ditemukan</h1>
+    <p>Tidak ada halaman web yang ditemukan untuk alamat web: <strong id="url"></strong></p>
+    <p>HTTP ERROR 404</p>
+</div>
 </body>
+     <script>
+        var str = document.documentURI;
+        document.getElementById("url").innerHTML = "" + str;
+    </script>
 </html>
