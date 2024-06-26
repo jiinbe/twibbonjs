@@ -124,6 +124,12 @@ renewFormElement.addEventListener('click', function(){
 generateElements();
 });
 mainElement.appendChild(renewFormElement);
+
+let statusShare = document.createElement('span');
+statusShare.classList.add("button");
+statusShare.innerText = config.messages.buttons.shared;
+mainElement.appendChild(statusShare);
+	
 });
 }
 });
