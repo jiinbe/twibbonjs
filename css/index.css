@@ -37,3 +37,10 @@ pre, code { font-family: monospace, sans-serif; font-size: 1em; color:#080; }
 
 .footer { margin: 20px 0 50px; font-size: 11px; color: #666; text-align: center; }
 .footer a { color: #666; }
+
+@media (max-width: 700px) {
+.container {
+margin: 0 auto;
+width: auto;
+}
+}
