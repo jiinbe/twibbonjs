@@ -10,7 +10,7 @@ vertical-align: baseline;
 /* ------------------------------------------------------------------------------------------------------------- TEMPLATE */
 
 body { 
-font: 14px/1.333 sans-serif;
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #444; 
 background-color: #f0f0f2;
 }
