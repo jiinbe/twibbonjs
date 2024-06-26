@@ -1,29 +1,29 @@
 button, .button {
-	font-family: inherit;
-	font-size: inherit;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
-	text-decoration: none;
+font-family: inherit;
+font-size: inherit;
+padding: 0.4em;
+margin: 0 0 0.5em 0;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 2px;
+text-decoration: none;
 }
 button, .button {
-	color: #333;
-	background-color: #f1f1f1;
-	outline: none;
-	margin-right: 0.5em;
-	text-decoration: none;
+color: #333;
+background-color: #f1f1f1;
+outline: none;
+margin-right: 0.5em;
+text-decoration: none;
 }
 
 button:disabled .button:disabled {
-	color: #999;
+color: #999;
 }
 
 button:not(:disabled):active, .button:not(:disabled):active {
-	background-color: #ddd;
+background-color: #ddd;
 }
 
 button:focus, .button:focus {
-	border-color: #666;
+border-color: #666;
 }
