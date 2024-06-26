@@ -100,7 +100,7 @@ nextX += (logo.width * renderOptions.scale) + 10
 				
 // set image url to blob
 let downloadImageElement = document.createElement('img');
-downloadImageElement.setAttribute("alt", "Preview Twibbon");
+downloadImageElement.setAttribute("alt", "Result Twibbon");
 downloadImageElement.src = generator.render();
 mainElement.appendChild(downloadImageElement);
 
@@ -123,13 +123,7 @@ renewFormElement.innerText = config.messages.buttons.newImage;
 renewFormElement.addEventListener('click', function(){
 generateElements();
 });
-mainElement.appendChild(renewFormElement);
-
-let statusShare = document.createElement('span');
-statusShare.classList.add("button");
-statusShare.innerText = config.messages.buttons.shared;
-mainElement.appendChild(statusShare);
-	
+mainElement.appendChild(renewFormElement);	
 });
 }
 });
