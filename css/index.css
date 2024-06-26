@@ -61,13 +61,30 @@ font-size: 13px;
 background: #fff; 
 }
 
-.ribbon { position: absolute; top: -1px; right: -1px; opacity: 0.9; }
-.ribbon:hover, .ribbon:focus, .ribbon:active { opacity: 1; }
-.ribbon img { display: block; border: 0; }
+.ribbon {
+position: absolute; 
+top: -1px; 
+right: -1px; 
+opacity: 0.9;
+}
 
-.header { padding-right:80px; }
+.ribbon:hover, .ribbon:focus, 
+.ribbon:active { 
+opacity: 1; 
+}
 
-.section { margin: 40px 0 20px; }
+.ribbon img { 
+display: block;
+border: 0; 
+}
+
+.header { 
+padding-right:80px; 
+}
+
+.section { 
+margin: 40px 0 20px;
+}
 
 .example { padding: 20px; border: 1px solid #ccc; margin: 10px -20px 20px; }
 
