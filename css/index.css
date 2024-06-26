@@ -9,6 +9,7 @@ a { color: #980905; }
 a:hover, a:focus, a:active { text-decoration: none; }
 
 img, canvas { width: 100%; height: auto; margin-bottom: 0.5em; }
+
 p { line-height: 1.6; }
 
 /* ------------------------------------------------------------------------------------------------------------- TEMPLATE */
