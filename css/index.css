@@ -100,6 +100,10 @@ cursor: pointer;
 animation: shake 0.35s;
 }
 
+#p5_loading {
+display: none;
+}
+
 @keyframes shake {
 0% {
 transform: rotate(0deg);
