@@ -7,7 +7,7 @@ function preload() {
   // if mp3 is not supported by this browser,
   // loadSound will load the ogg file
   // we have included with our sketch
-  song = loadSound('https://intifada.pages.dev/seventeen.mp3');
+  song = loadSound('https://redz.pages.dev/assets/gugurbunga.mp3');
 }
 
 function setup() {
