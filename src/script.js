@@ -24,7 +24,7 @@ var mainElement = document.getElementById(config.rootElementId);
 mainElement.innerHTML = "";
 
 var shareElement = document.getElementById(share);
-mainElement.innerHTML = "Hello World!";
+shareElement.innerHTML = "Hello World!";
 	
 let statusElement = document.createElement('p');
 statusElement.textContent = config.messages.status.startup;
