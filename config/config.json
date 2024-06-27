@@ -16,7 +16,7 @@
 "uploading": "File sedang diimpor, harap tunggu...", 
 "processing": "File sedang diproses, harap tunggu...", 
 "generate": "Aplikasi sedang berjalan, harap tunggu...",
-"done": "Anda berhasil mengunduh! Terima kasih."
+"done": "Catatan: Aplikasi ini berjalan murni di browser Anda. Tidak ada gambar atau data yang akan disimpan oleh aplikasi."
 }, 
 "buttons": {
 "download": "Download", 
